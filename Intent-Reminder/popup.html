@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Intent Reminder</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 250px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Intent Reminder</h3>
+
+    <input type="text" id="session-name" placeholder="Session name" />
+    
+    <button id="save-session">
+      Save current session
+    </button>
+    
+    <select id="saved-sessions">
+      <option value="">-- Select session --</option>
+    </select>
+    
+    <button id="restore-session">
+      Restore selected session
+    </button>
+    
+    <p id="status"></p>
+    
+    <script src="popup.js"></script>
+    
+  </body>
+</html>
